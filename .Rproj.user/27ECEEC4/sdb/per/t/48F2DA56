@@ -1,0 +1,16 @@
+{
+    "contents" : "\\name{testproj-package}\n\\alias{testproj-package}\n\\alias{testproj}\n\\docType{package}\n\\title{\nWhat the package does (short line)\n~~ package title ~~\n}\n\\description{\nMore about what it does (maybe more than one line)\n~~ A concise (1-5 lines) description of the package ~~\n}\n\\details{\n\\tabular{ll}{\nPackage: \\tab testproj\\cr\nType: \\tab Package\\cr\nVersion: \\tab 1.0\\cr\nDate: \\tab 2015-08-24\\cr\nLicense: \\tab What license is it under?\\cr\n}\n~~ An overview of how to use the package, including the ~~\n~~ most important functions ~~\n}\n\\author{\nWho wrote it\n\nMaintainer: Who to complain to <yourfault@somewhere.net>\n~~ The author and/or maintainer of the package ~~\n}\n\\references{\n~~ Literature or other references for background information ~~\n}\n\\keyword{ package }\n\\seealso{\n~~ Optional links to other man pages, e.g. ~~ ~~\n}\n\\examples{\n}\n",
+    "created" : 1440452596454.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "1053615606",
+    "id" : "48F2DA56",
+    "lastKnownWriteTime" : 1440452718,
+    "path" : "C:/Users/lmcda4.LSUMC-MASTER/Dropbox/McDR/testproj/man/testproj-package.Rd",
+    "project_path" : "man/testproj-package.Rd",
+    "properties" : {
+    },
+    "source_on_save" : false,
+    "type" : "r_doc"
+}

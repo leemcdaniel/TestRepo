@@ -1,0 +1,16 @@
+{
+    "contents" : "#' Weibull Hazard Function\n#' \n#' @param t A vector of times\n#' @param scale Scale parameter\n#' @param shape Shape parameter\n#' @return Value of the hazard function\n#' @examples\n#' hweibull(1:10, 5,3)\n#' @export\nhweibull <- function(t, scale, shape){\n  if(!all(t>0)) stop(\"Not all t > 0\")\n  stopifnot(all(t>0), scale>0, shape>0)\n  return((shape/scale)*(t/scale)^(shape-1))\n}\n\n#' Weibull Mean\n#' \n#' @param scale Scale parameter\n#' @param shape Shape parameter\n#' @return The mean\n#' @examples\n#' mweibull(1,3)\n#' @export\nmweibull <- function(scale, shape){\n  func <- function(t){\n    t*dweibull(t, scale=scale, shape=shape)\n  }\n  return(integrate(func, 0, Inf)$value)\n}",
+    "created" : 1443456547694.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "3221105018",
+    "id" : "5CECD88D",
+    "lastKnownWriteTime" : 1440454029,
+    "path" : "C:/Users/lmcda4/Dropbox/McDR/testproj/R/testproj.R",
+    "project_path" : "R/testproj.R",
+    "properties" : {
+    },
+    "source_on_save" : false,
+    "type" : "r_source"
+}
